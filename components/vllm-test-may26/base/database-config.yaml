@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: vllm-test-may26-database-config
+data:
+  VECTORDB_HOST: "vllm-test-may26-database"
+  VECTORDB_PORT: ""
